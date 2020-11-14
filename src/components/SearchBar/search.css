@@ -1,0 +1,40 @@
+.form-search {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-family: "Gotham";
+  border: 1px solid #354a69;
+  border-radius: 2px;
+}
+
+.form-search input {
+    width:90%;
+  background-color: #ffffff;
+  padding-left: 15px;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.form-search button {
+  float: right;
+  color: #ffffff;
+  padding: 15px 22px;
+  margin-left: -4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.form-search button svg {
+padding-top: 2px;
+}
+
+.form-search i {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-family: "Gotham";
+  font-size: 16px;
+  color: #354a69;
+}

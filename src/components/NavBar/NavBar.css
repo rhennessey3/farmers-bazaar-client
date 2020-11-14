@@ -1,0 +1,14 @@
+ul {
+    list-style-type: none;
+  }
+
+  li {
+    display: inline;
+}
+
+li a {
+    color: rgb(17, 17, 17);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }

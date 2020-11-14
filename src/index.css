@@ -1,0 +1,91 @@
+@import url("//hello.myfonts.net/count/3c898a");
+
+@font-face {
+  font-family: "Recoleta-Black";
+  src: url("./Font/Recoleta-Black/font.woff2") format("woff2"),
+    url("./Font/Recoleta-Black/font.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Recoleta-Medium";
+  src: url("./Font/Recoleta-Medium/font.woff2") format("woff2"),
+    url("./Font/Recoleta-Medium/font.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Recoleta-Thin";
+  src: url("./Font/Recoleta-Thin/font.woff2") format("woff2"),
+    url("./Font/Recoleta-Thin/font.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("https://cloud.typography.com/6911698/6424612/css/fonts.css"); /* IE9 Compat Modes */
+}
+
+h1 {
+  font-family: Recoleta-Black;
+  font-size: 1.8em;
+  color: #354a69;
+  margin: 0;
+}
+
+h2 {
+  font-family: Recoleta-Medium;
+  font-size: 1.2em;
+  color: #354a69;
+}
+
+article {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.8em;
+  letter-spacing: -0.03em;
+}
+
+h3 {
+  font-family: Recoleta-Medium;
+  font-size: 1em;
+  color: #354a69;
+  margin: 0;
+}
+
+h4 {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.5em;
+  color: #f4f4f4;
+}
+
+h5 {
+  font-family: Recoleta-Thin;
+  font-size: 1em;
+  margin: 0;
+}
+
+h6 {
+  font-family: Recoleta-Medium;
+  font-size: 1em;
+  margin: 0;
+}
+
+.tag p {
+  font-size: 0.7em;
+  margin: 0;
+  text-align: right;
+}
+
+p {
+  font-family: Gotham;
+  font-weight: 300;
+  font-size: 1em;
+  text-align: center;
+}
+
+.product-detail-item-description p {
+  text-align: left;
+}

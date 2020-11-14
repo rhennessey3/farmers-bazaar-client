@@ -1,0 +1,37 @@
+.product-item-container {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-rows: auto;
+  
+  grid-template-areas:
+    "photo name . "
+    "photo name price "
+    "photo name available "
+    "photo name available ";
+  /* border: 1px solid orange; */
+}
+
+.product-item-photo {
+  grid-area: photo;
+  justify-self: center;
+  /* border: 1px solid green; */
+}
+
+.product-item-name {
+  grid-area: name;
+  align-self: center;
+  /* border: 1px solid blue; */
+}
+
+.product-item-price {
+  grid-area: price;
+  align-self: end;
+  justify-self: center;
+  /* border:1px solid red; */
+}
+
+.product-item-available {
+  grid-area: available;
+  justify-self: center;
+  /* border: 1px solid yellow; */
+}

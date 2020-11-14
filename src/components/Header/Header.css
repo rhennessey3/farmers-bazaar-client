@@ -1,0 +1,21 @@
+.app-header-a {
+  display: flex;
+  flex-direction: row;
+  max-width: 550px;
+  margin:auto;
+}
+
+.app-header-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  width: 50%;
+  padding: 0 10px;
+}
+
+.app-nav-system {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
